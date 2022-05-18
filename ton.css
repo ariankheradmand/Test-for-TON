@@ -335,6 +335,7 @@ text-decoration: none;
 
 .S4-doted-line {
     display: flex;
+    flex-wrap: wrap ;
     flex-direction: row;
     align-items: center;
     padding-top: 35px;
@@ -366,7 +367,7 @@ text-decoration: none;
     width: 6px;
     border-radius: 50%;
     background-color: #ffffff;
-    z-index: 9999;
+    z-index: 100;
 
 }
 .S4-big-dot-cover {
@@ -377,9 +378,18 @@ text-decoration: none;
     background-color: #08c;
 }
 .S4-dotedline {
-    background-color: #e5f3fa;
-    margin-left: 25px;
-    width: 25px;
+    display: block;
+    top: 0;
+    left : calc(66.6666666667% + 60px);
+    width: 100vw;
+    height: 2px;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='728' height='2' viewBox='0 0 728 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M728 1L1.00002 1' stroke='%230088CC' stroke-opacity='0.1' stroke-width='2' stroke-linecap='round' stroke-dasharray='20 20'/%3E%3C/svg%3E%0A")
+}
+.S4-dotedline-background {
+    position: absolute;
+    right: 0;
+    width: 500;
     height: 2px;
 }
 .S4-2-text-count {
