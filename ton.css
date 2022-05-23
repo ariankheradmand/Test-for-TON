@@ -207,7 +207,7 @@ text-decoration: none;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 250px;
+    padding-bottom: 50px;
 }
 .S2-Main-title-class {
     display: flex;
@@ -688,9 +688,25 @@ text-decoration: none;
     line-height: 30px;
     
 }
+#link {
+    font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #07a0ec;
+    padding-top: 25px;
+}
+#link:hover {
+    transition: 0.2s ease-in-out;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #60bfee;
+    padding-top: 25px;
+}
 #hidden {
     text-decoration: none;
-    color: #323236;
+    color: #08c;
 }
 #hidden:hover {
     transition: 0.2s ease-in-out;
@@ -700,7 +716,7 @@ text-decoration: none;
 .S5-black-box-fotter {
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
+    padding-top: 100px;
     width: 100%;
 
 }
