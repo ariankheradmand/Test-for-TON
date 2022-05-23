@@ -594,6 +594,116 @@ text-decoration: none;
     background-color: #0088cc;
     padding:0px 28px ;
 }
+.S5-black-box {
+    margin-top: 50px;
+    background-color: #323236;
+    width: 1050px;
+    border-radius: 34px;
+}
+.S5-black-box-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #29292e;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height: 54px;
+}
+.S5-black-box-dot {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.S5-black-box-header .dot1 {
+    margin: 0px 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 80px;
+    background-color: #ed6a5e;
+}
+.S5-black-box-header .dot2 {
+    margin: 0px 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 80px;
+    background-color: #f6be4f;
+}
+.S5-black-box-header .dot3 {
+    margin: 0px 5px;
+    width: 13px;
+    height: 13px;
+    border-radius: 80px;
+    background-color: #62c554;
+}
+.S5-black-box-main {
+    padding: 35px 0px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+.S5-black-box-column {
+    width: 100%;
+    height: 400px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #3b3b3e;
+}
+.S5-black-box-column .text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0px 20px 35px;
+    height: 14%;
+}
+.S5-black-box-column .text:hover {
+    font-weight: 800;
+    padding: 13px 0px 13px 35px;
+    height: 14%;
+    transition: 0.2s ease-in-out;
+    background-color: #39393c;
+    border-right: 1px solid #0088cc;
+}
+.S5-black-box-column-paragraph {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-weight: 700;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.S5-black-box-column-paragraph .bold-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.S5-black-box-column-paragraph .paragraph {
+    padding-top: 18px;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+#hidden {
+    text-decoration: none;
+    color: #323236;
+}
+#hidden:hover {
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #5dc7fc;
+}
+.S5-black-box-fotter {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    width: 100%;
+
+}
 .S6-container {
     display: flex;
     flex-direction: column;
