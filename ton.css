@@ -201,6 +201,8 @@ text-decoration: none;
 
 
 .S2-white-background {
+    cursor: context-menu;
+
     padding-top: 150px;
     background-color: #ffffff;
     display: flex;
@@ -210,6 +212,8 @@ text-decoration: none;
     padding-bottom: 50px;
 }
 .S2-Main-title-class {
+
+
     display: flex;
     font-family: Mulish,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
     font-size: 56px;
@@ -273,6 +277,8 @@ text-decoration: none;
 }
 .S3-big-box {
     /* background-color: linear-gradient (#f5f7fa ,#8ea2ab) ; */
+    
+    
     background-color: #f7f9fb;
     background-position: center;
     background-repeat: no-repeat;
@@ -590,9 +596,16 @@ text-decoration: none;
     background-color: #3b3b3e;
     padding:0px 42px ;
 }
+.bottom-in-black-continer .blue-box-2:hover {
+    background-color: #47474b;
+    box-shadow: 10px 0px 5px #29292e;
+}
 .bottom-in-black-continer .blue-box {
     background-color: #0088cc;
     padding:0px 28px ;
+}
+.bottom-in-black-continer .blue-box:hover {
+    background-color: #17b0fd;
 }
 .S5-black-box {
     margin-top: 50px;
@@ -764,10 +777,13 @@ text-decoration: none;
   height: 450px;
 }
 .S7-cnt {
+    overflow: hidden;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1150px;
+    height: 470px;
+    width: 1350px;
     background-color: #f7f9fb;
     border-radius: 48px;
     padding-bottom: 150px;
@@ -801,6 +817,87 @@ text-decoration: none;
     border-radius: 40px;
     background-color: #0088cc;
 }
+#app-1 {
+    border-radius: 24px;
+    position: absolute;
+    left: 85px;
+    top: 230px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-2 {
+    border-radius: 24px;
+    position: absolute;
+    left: 85px;
+    top: 365px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-3 {
+    border-radius: 24px;
+    position: absolute;
+    left: 230px;
+    top: 260px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-4 {
+    border-radius: 24px;
+    position: absolute;
+    left: 230px;
+    top: 390px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-5 {
+    border-radius: 24px;
+    position: absolute;
+    left: 375px;
+    top: 320px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-6 {
+    border-radius: 24px;
+    position: absolute;
+    left: 880px;
+    top: 320px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-7 {
+    border-radius: 24px;
+    position: absolute;
+    left: 1025px;
+    top: 260px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-8 {
+    border-radius: 24px;
+    position: absolute;
+    left: 1025px;
+    top: 390px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
+#app-9 {
+    border-radius: 24px;
+    position: absolute;
+    left: 1170px;
+    top: 320px;
+    width: 110px;
+    height: 110px;
+    box-shadow: 15px 5px 20px rgba(35,35,40,0.4);
+}
 .S8-cnt {
     display: flex;
     flex-direction: column;
@@ -831,8 +928,18 @@ text-decoration: none;
     flex-direction: column;
     align-items: flex-start;
 }
-.S9-logos {
+.S9-logos:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.background-logo {
     border-radius: 28px;
+    overflow: hidden;
+    max-width: 360px;
+    max-height: 168px;
+}
+.S9-logos {
+    
     width: 360px;
 }
 .S9-bold-text {
@@ -887,6 +994,10 @@ text-decoration: none;
 
 
     padding: 5px 0px;
+}
+.S10-fotter-link:hover {
+    color: #07a0ec;
+    transition: 0.2s ease-in-out;
 }
 .S10-bold-text {
     padding-bottom: 10px;
